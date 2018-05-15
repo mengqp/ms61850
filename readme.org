@@ -1,0 +1,13 @@
+#+TITLE: 用61850库做一个主子站，仅仅是我自己测试使用
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../../css/readtheorg.css" />
+#+OPTIONS: ^:nil
+
+
+* Table of Contents                                         :TOC_4_org:noexport:
+
+
+* TODO 编译库
+
+* TODO 做子站
+
+* TODO 做主站
