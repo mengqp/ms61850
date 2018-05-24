@@ -6,8 +6,8 @@
 * Table of Contents                                         :TOC_4_org:noexport:
 
 
-* TODO 编译库
 
+* TODO 编译库
 
 ** 直接make
 
@@ -34,3 +34,6 @@ CFLAGS += -Os
 
 ** 交叉编译
    make CC=
+
+* 例子
+  都在库/examples/下
