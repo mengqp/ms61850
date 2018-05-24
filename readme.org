@@ -8,6 +8,29 @@
 
 * TODO 编译库
 
-* TODO 做子站
 
-* TODO 做主站
+** 直接make
+
+  相应的库就生成在build 下面
+
+** make install
+  相应的库就生成在 .install/lib 下面
+  相应的头文件在.install/include/ 下面
+
+** 去除－g
+   找到make 文件夹下，修改
+#+BEGIN_SRC cpp
+# CFLAGS += -g
+CFLAGS += -Os
+#+END_SRC
+
+这样库就会变小很多
+
+** make dynlib 生成动态库
+   这样编译的话，会生成在build 下
+
+** 设定生成路径
+   make INSTALL_PREFIX=/usr/local install
+
+** 交叉编译
+   make CC=
